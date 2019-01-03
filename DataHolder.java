@@ -228,7 +228,7 @@ public class DataHolder extends Application {
     public void onCreate() {
         super.onCreate();
         Parse.enableLocalDatastore(this);
-        Parse.initialize(this, "L3aYHyaFUnBALA1WomN5U3ZiN1UJZLC3XOKQlXeK", "HDPgDm52IUwP8KfLWn5bEJ62u1dDO58F2XXr7cSF");
+        Parse.initialize(this, "", "");
         ParseInstallation.getCurrentInstallation().saveInBackground();
     }
 
